@@ -1,0 +1,200 @@
+@import url("https://fonts.cdnfonts.com/css/grizzly-attack");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+/* General CSS styling */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: "Lato", sans-serif;
+  color: hsla(45, 29%, 99%, 1);
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+/* Styling set up */
+:root {
+  --color-100: #cce6e6;
+  --color-200: #aad5d5;
+  --color-300: #80bfbf;
+  --color-400: #55aaaa;
+  --color-500: #2b9595;
+  --color-600: #008080;
+  --color-700: #006b6b;
+  --color-900: #002b2b;
+  --color-800: #005555;
+  --color-1000: #001a1a;
+
+  --secondary-100: #fefefd;
+  --gray-400: #aaa;
+  --accent-color-300: #f25211;
+}
+/* Styling the container */
+.container {
+  padding: 0.5rem;
+  border: 1px solid red;
+}
+/* Header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  background: hsla(180, 100%, 5%, 1);
+}
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.hero-img {
+  max-width: 100%;
+  padding: 0 2.25rem;
+}
+.hero-img img {
+  /* width: 17.125rem; */
+}
+.hero-text h1 {
+  color: var(--secondary-100, #fefefd);
+  text-align: center;
+  font-family: Grizzly Attack;
+  font-size: 1.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.36875rem; /* 173.871% */
+  font-family: "Grizzly Attack", sans-serif;
+}
+
+.hero-text p {
+  color: var(--gray-400, #aaa);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  margin: 1.3125rem 0;
+}
+
+/* Styling the hero section button */
+.hero-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+  gap: 1.3125rem;
+  border-radius: 0.5rem;
+}
+.hero-btn button {
+  display: flex;
+  width: 11.25rem;
+  padding: 1rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  /* border: none; */
+}
+
+.get-started-btn {
+  background: var(--accent-color-300, #f25211);
+  border: none;
+  color: var(--secondary-100, #fefefd);
+}
+.demo-btn {
+  border: 1px solid var(--accent-color-300, #f25211);
+  background: none;
+  color: var(--accent-color-300, #f25211);
+}
+
+/* Styling the main content container */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 76px;
+}
+
+/* Styling section one */
+.content-section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.section-one-img {
+  width: 13.625rem;
+}
+img {
+  max-width: 100%;
+}
+
+.section-one-text h1 {
+  color: var(--accent-color-300, #f25211);
+  font-family: Grizzly Attack;
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 1.3125rem;
+}
+
+.section-one-text p {
+  color: #fff;
+  font-family: Lato;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+
+/* Styling section two */
+.content-section-two {
+  
+
+}
+.check-one {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  padding: 1rem;
+  
+  color: var(--secondary-100, #fefefd);
+  
+  font-size: 0.82263rem;
+  border: 1px solid white;
+}
+.section-two-img img {
+  border: 1px solid red;
+  width: 32px;
+  height: 32px;
+  
+  
+}
+
+
+.section-two-imgs {
+  border: 1px solid red;
+  width: 48px;
+  height: 48px;
+ 
+}
+
+.section-two-text{
+  border: 1px solid red;
+}
