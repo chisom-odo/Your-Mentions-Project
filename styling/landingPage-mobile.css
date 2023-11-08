@@ -310,6 +310,7 @@ img {
   margin: 48px 0;
   background: var(--primary-color-100, #cce6e6);
   padding: 1rem;
+  height: 208px;
 }
 
 .section-five-text h1 {
